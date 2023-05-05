@@ -101,7 +101,7 @@ sap.ui.define([
 
             var oResourceBundle = this.getResourceBundle(),
                 oObject = oView.getBindingContext().getObject(),
-                sObjectId = oObject.,
+                sObjectId = oObject,
                 sObjectName = oObject.Mitigations;
 
                 oViewModel.setProperty("/busy", false);
